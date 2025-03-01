@@ -1,0 +1,27 @@
+{
+  "name": "cssg-nodejs-insta",
+  "version": "1.0.0",
+  "description": "cssg node js insta project",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinhh25/cssg-nodejs-insta.git"
+  },
+  "keywords": [
+    "cssg",
+    "nodejs",
+    "instagram"
+  ],
+  "author": "justin han & jesse jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinhh25/cssg-nodejs-insta/issues"
+  },
+  "homepage": "https://github.com/justinhh25/cssg-nodejs-insta#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
