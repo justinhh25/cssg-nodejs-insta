@@ -1,0 +1,73 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between image and text */
+    max-width: 600px;
+    margin-bottom: 10vh;
+    height: 5vh;
+}
+
+.pfp {
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    gap: 15px;
+}
+
+.stats h3 {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: rgb(221, 211, 211);
+}
+
+.bio {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.4;
+}
+
+.instagram_title {
+    font-family: "Sofia", serif;
+}
+
+.posts_text {
+    text-align:center;
+    margin: auto;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px; 
+    margin: auto;
+    gap: 5px;
+}
+
+.posts img {
+    width:100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+p {
+    font-size: 20px;
+}
