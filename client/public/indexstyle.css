@@ -1,0 +1,104 @@
+.rectangular-button {
+    display: flex;
+    align-items: center;
+    background-color: #000000;  
+    color: white;
+    text-decoration: none;  
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;  
+    width: 200px;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #010101;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; 
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.instagram_title {
+    font-family: "Sofia", serif;
+}
+
+.main-content {
+    width: 45%; 
+}
+
+
+.suggested-post {
+    width: 35%; 
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggested-post h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.suggested-post .post {
+    margin-bottom: 15px;
+}
+
+.suggested-post p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+.profile {
+    width: 15%; 
+}
+
+
+.profile .rectangular-button {
+    display: block;
+    width: 100%; 
+    margin-top: 20px;
+}
+
+
+body p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+body h1 {
+    font-size: 2em;
+    color: #010101;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    background-color: #000000;  
+    color: white;
+    text-decoration: none; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;  
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
